@@ -1,0 +1,12 @@
+import os
+myfile = open("file.txt","x")
+myfile = open("file.txt","w")
+myfile.write("Hello Good Morning")
+myfile = open("file.txt")
+print(myfile.read())
+print(myfile.readline())
+myfile = open("file.txt","a")
+myfile.write("       sfnkrbjr")
+creat = open("file2.txt","x")
+os.remove("file2.txt")
+os.rename("file.txt","New File.txt")

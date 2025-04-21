@@ -33,11 +33,11 @@
 ##def divi(r,d):
 ##    for i in range(r,d):
 ##        if i% 3 == 0 and i % 5 == 0:
-##            print(i,"it is divied by 3")
+##            print(i,"its Divied By Both 3 and 5")
 ##        elif i % 5 == 0:
 ##            print(i,"it is divied by 5")
 ##        elif i% 3 == 0:
-##            print(i,"its Divied By Both 3 and 5")
+##            print(i,"it is divied by 3")
 ##        
 ##divi(j,v)
 
@@ -77,14 +77,15 @@
 ##        print("Factorial:",factorial)
 ##fact(num)
 
-###print a pattern of * in a triangle shape.
-##a =int(input("Enter The Number: ", ))
-##def pat(f):
-##    for i in range(f):
-##        for j in range(i+1):
-##            print("* ",end=" ")
-##        print()
-##pat(a)
+#print a pattern of * in a triangle shape.
+a =int(input("Enter The Number: ", ))
+def pat(f):
+    for i in range(f):
+        for j in range(i+1):
+            for k in range(i-5):
+                print("* ",end=" ")
+        print()
+pat(a)
 
 ####find maximum element in an list.
 ##My_list = [1,9,8,15,101,1225,102]

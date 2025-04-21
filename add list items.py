@@ -8,6 +8,3 @@
 ##fruits = ["apple","cherry","dragonfruit"]
 ##fruits.insert(1,"banana")
 ##print(fruits)
-
-number = [1,5,8,6,3]r),2)
-print(number)
